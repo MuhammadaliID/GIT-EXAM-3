@@ -509,6 +509,11 @@
       margin-top: -300px;
     }
   }
+  .sm\:mt-\[100px\] {
+    @media (width >= 40rem) {
+      margin-top: 100px;
+    }
+  }
   .sm\:ml-\[-100px\] {
     @media (width >= 40rem) {
       margin-left: -100px;
